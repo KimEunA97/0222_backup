@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    ol{
+      list-style-type:none;
+    }
+    li{
+      display: inline-block;
+      width: 200px;
+      height: 30px;
+
+      background-color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <ol>
+    <li>items-1</li>
+    <li>items-2</li>
+    <li>items-3</li>
+    <li>items-4</li>
+    <li>items-5</li>
+  </ol>
+
+    
+  <p class="blink">텍스트 깜빡이는 효과</p>
+</body>
+
+</html>
+
+<style>
+  /* 텍스트 깜빡임 */
+  @keyframes blink-effect { 50% { opacity: 0; } } 
+  .blink { 
+      animation: blink-effect 1s step-end infinite; 
+      /* 
+          animation-name: blink-effect; 
+          animation-duration: 1s; 
+          animation-iteration-count:infinite; 
+          animation-timing-function:step-end; 
+      */ 
+  }
+  </style>

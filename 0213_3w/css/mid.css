@@ -1,0 +1,37 @@
+@media screen and (max-width:500px) {
+  
+
+#mid {
+  /* Rectangle 2 */
+  position: absolute;
+
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 430px;
+  height: 600px;
+  left: 0px;
+  top: 200px;
+
+  background: #9CDDAA;
+
+}
+
+
+
+#mid>div {
+  /* Rectangle 7 */
+
+
+
+  width: 380px;
+  height: 270px;
+  left: 25px;
+  top: 221px;
+
+  background: #4198C9;
+
+}
+}

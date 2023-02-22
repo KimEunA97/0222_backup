@@ -1,0 +1,31 @@
+.gray{
+  color: #585858 ;
+}
+
+
+body div {
+  margin: 70px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 0%;
+  letter-spacing: -3px;
+}
+
+.box{
+}
+
+.box>div{
+
+  /* margin-left: 0px;
+  margin-right: 0px;
+  margin : -37px; */
+
+}
+
+.black
+{
+  color: #0F0F0F ;
+}
+

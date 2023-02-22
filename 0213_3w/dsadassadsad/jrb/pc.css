@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1920;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}

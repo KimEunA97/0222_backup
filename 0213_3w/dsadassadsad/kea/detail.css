@@ -1,0 +1,57 @@
+@media screen and (max-width : 767px) {
+
+
+}
+
+
+#content>div>div{
+  display: flex;
+}
+
+.alba{
+  display: flex;
+  margin: 10px;
+  height: 10000px;
+}
+
+.albabox{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+
+
+}
+
+/* 알바광고 사진  */
+.alba_1>div:nth-child(1)>div {
+
+  background-color: orangered;
+  border: 1px solid black;
+  width: 96px;
+  height: 96px;
+  
+
+}
+
+
+
+/* 알바광고 제목, 주소, 월급 */
+.alba_1>div:nth-child(2)>div{
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#ad{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+#ad>div{
+  border: 1px solid black;
+  width: 100vw;
+  height: 10vh;
+}

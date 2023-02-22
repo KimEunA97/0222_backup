@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#container1 {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aqua
+}
+
+#container1 > #container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: ;
+  width: 20%;
+}
+.chu {
+  
+  
+  
+}
+.chu_list {
+  border-bottom: 0.5px rgb(99, 94, 94) solid;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  flex-direction: column;
+}
+
+.slide {
+  display: flex;
+  flex-direction:row;
+}
+
+
+
+
+
+
+
+
+

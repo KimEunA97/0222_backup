@@ -1,0 +1,18 @@
+@media screen and (max-width:500px) {
+  
+
+
+#bot{
+  /* Rectangle 3 */
+
+position: absolute;
+width: 430px;
+height: 132px;
+left: 0px;
+top: 800px;
+
+background: #484848;
+
+}
+
+}
