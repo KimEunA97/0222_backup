@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    body {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    div{
+      cursor: pointer;
+    }
+
+
+    .out {
+
+      display: flex;
+      background-color: blue;
+      width: 100px;
+      height: 100px;
+      color: white;
+      visibility: visible;
+
+      /* background-color: black;
+      cursor: pointer; */
+    }
+
+
+    .in {
+
+      background-color: red;
+      width: 80%;
+      height: 80%;
+      color: white;
+      visibility: hidden;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="out">out
+    <div class="in">in</div>
+  </div>
+
+</body>
+
+</html>
+
+<!-- <script>
+
+  const outButton = document.querySelector('.out');
+  const inButton = document.querySelector('.in');
+
+  const change = function click() {
+    inButton.setAttribute('style', 'visibility: visible');
+    outButton.setAttribute('style', 'display : none');
+  }
+  const show = function click() {
+    outButton.setAttribute('style', 'visibility: visible');
+    inButton.setAttribute('style', 'display : none');
+  }
+
+
+  outButton.addEventListener('click', change);
+  inButton.addEventListener('click', show);
+
+
+
+  // console.log('work');
+
+  // document.getElementById('in').setAttribute('style', 'color:blue');
+  // console.log('sss');
+
+</script> -->
